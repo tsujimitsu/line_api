@@ -7,9 +7,14 @@ usage
 
     $ git clone https://github.com/tsujimitsu/line_api.git
     $ cd line_api
-    $ vi api.env
-    [auth]
-    token = <Your LINE API TOKEN>
+
+      $ vi api.env
+      [auth]
+      token = <Your LINE API TOKEN>
+
+      or
+
+      $ heroku config:set AUTH_TOKEN='<Your API TOKEN>'
 
     $ heroku login
     $ heroku create
