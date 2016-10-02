@@ -27,3 +27,8 @@ webhook
 ----
 * set webhook url in Line Developers page
  * https://XXXX.herokuapp.com/webhook
+
+heroku debug
+----
+
+    $ heroku logs --tail
